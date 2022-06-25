@@ -1,118 +1,106 @@
 {
-    "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Dirk-Jan van der Plas",
+    "label": "DevOps Engineer | Cloud Engineer | Kubernetes Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQG_DicsMRQQag/profile-displayphoto-shrink_200_200/0/1596797801117?e=1661385600&v=beta&t=wUe7Wng_f4tP491KZUDlcDGvtfQ6VvvKAMwupG4xfbo",
+    "email": "dirk-jan@djvdp.org",
+    "phone": "+31616754700",
+    "url": "https://resume.djvdp.org",
+    "summary": "I'm a engineer who's specialized in building & maintaining platforms, either in the cloud (AWS & Azure) or on Kubernetes (AWS, Azure & On-premises). I am very focussed around delivering neccesary bussines value while constantly asking myself the why and for who are we building this question."
+  },
+  "work": [
+    {
+      "name": "KPMG",
+      "location": "Amstelveen, NL",
+      "position": "DevOps Engineer (Freelance)",
+      "url": "https://kpmg.nl",
+      "startDate": "2022-07-01",
+      "summary": "",
+      "highlights": [
+      ]
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+    {
+      "name": "Nationale Nederlanden",
+      "location": "The Hague, NL",
+      "position": "Kubernetes Engineer",
+      "url": "https://nn.nl",
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-30",
+      "summary": "Responsible for everything containers & kubernetes related at Nationale Nederlanden. With a main priority of makeing the platform more managable by using the \"heavy lifting\" of the cloud providers.",
       "highlights": [
-        "Started the company"
+        "Maintaining a cloud native kubernetes platform on AWS & Azure",
+        "Transform a static platform into a product for customers with AWS CDK",
+        "Support & advice customers with creating High-Available container solutions on Kubernetes"
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+    },
+    {
+      "name": "ChannelEngine",
+      "location": "Leiden, NL",
+      "position": "DevOps Engineer",
+      "url": "https://www.channelengine.com/",
+      "startDate": "2021-04-01",
+      "endDate": "2022-10-31",
+      "summary": "Responsible for the on-premise infrastructure (Windows server, Redis, RabbitMq & Elastic Search). Working on a migration project to host the on-premise infrastructure on Azure.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Containerizing a complex C# .NET application",
+        "Create a landing zone for the company in Azure"
       ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "url": "https://www.ou.edu/",
+      "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
       "score": "4.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
       ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
+    }
+  ],
+  "skills": [
+    {
       "name": "Web Development",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "Javascript"
       ]
-    }],
-    "languages": [{
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
       "language": "English",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
       "keywords": [
         "Ferrets",
         "Unicorns"
       ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "description": "Description…",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "keywords": [
-        "HTML"
-      ],
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "url": "https://project.com/",
-      "roles": [
-        "Team Lead"
-      ],
-      "entity": "Entity",
-      "type": "application"
-    }]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
   }
+}
